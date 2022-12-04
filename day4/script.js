@@ -2,8 +2,10 @@
 
 const fs = require('fs');
 
+//solution 1
 const checker = (arr, target) => target.every(v => arr.includes(v));
 
+//solution 2
 const checker2 = (arr, target) => target.some(v => arr.includes(v));
 
 const calcAssignment = (assignment) => { 
